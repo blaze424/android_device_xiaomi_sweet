@@ -15,6 +15,14 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Axion FlagsAdd commentMore actions
+AXION_MAINTAINER := blaze424
+AXION_PROCESSOR := Snapdragon_732G
+
+# Camera
+AXION_CAMERA_REAR_INFO := 64,8,5,2
+AXION_CAMERA_FRONT_INFO := 16
+
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
