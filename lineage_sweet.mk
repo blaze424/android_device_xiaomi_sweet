@@ -16,8 +16,8 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Axion FlagsAdd commentMore actions
-AXION_MAINTAINER := blaze424
+# Axion Flags
+AXION_MAINTAINER := blaze
 AXION_PROCESSOR := Snapdragon_732G
 
 # Camera
